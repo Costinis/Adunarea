@@ -62,24 +62,9 @@ $(document).ready(function(e) {
 
     
 });
-$(document).ready(function(e) { 
 
- $("body").bind("swipeleft swiperight", function(evd) {
-	 var page = $.mobile.activePage[0];
-	 var dir = evd.type;
-	 if(page.id == "page1" && dir == "swipeleft")
-	  $.mobile.changePage("#page2");
-	  if(page.id == "page2" && dir == "swiperight")
-	   $.mobile.changePage("#page1"); 
-	  if(page.id == "page2" && dir == "swipeleft")
-	  $.mobile.changePage("#page3");
-	  if(page.id == "page3" && dir == "swiperight")
-	  $.mobile.changePage("#page2");
-  });
-
- });
  // Sound effect
- function EvalSound(soundobj) {
-  var thissound=document.getElementById(soundobj);
-  thissound.play();
-}
+ //function EvalSound(soundobj) {
+  //var thissound=document.getElementById(soundobj);
+ // thissound.play();
+//}
