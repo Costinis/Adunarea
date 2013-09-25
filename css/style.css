@@ -7,7 +7,7 @@
 	background-repeat: repeat;
 }.headers {
 	text-align: center;
-	margin-bottom: 32px;
+	margin-bottom: 35px;
 }
 #header {
 	background-image: url(../images/head-bg.png);
@@ -42,6 +42,8 @@
 }
 .button .ui-btn{
 	margin-bottom: 22px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 .learnContent, .learnContent2, .row1, .row2 {
 	margin: 0 auto 0 auto;
@@ -71,6 +73,7 @@
 	line-height: 48px;
 }
 .learnNumbers2 {
+	font-size: 44px;
 	color: #006;
 	line-height: 38px;
 	margin-top: 2px;
