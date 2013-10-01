@@ -19,8 +19,6 @@
   </div>
   <div data-role="content" >
   <!-- start Row 1-->
-      <audio id="audio1" src="../sound/beep-3.mp3" autobuffer></audio>
-      <audio id="audio2" src="../sound/correct-1.mp3" autobuffer></audio>
     <div class="learnNumbers2">
      <div class="row1">
        <div class="boxNum"><p>8 + 8 = </p></div>
@@ -30,9 +28,9 @@
        <div class="clear"></div>
      </div>
      <div class="row2">
-       <div class="boxVar var_r1" style="background:#9C3" onClick="EvalSound('audio2')"><p>16</p></div>
-       <div class="boxVar" onClick="EvalSound('audio1')"><p>14</p></div>
-       <div class="boxVar" style="background:#C0F" onClick="EvalSound('audio1')"><p>18</p></div>
+       <div class="boxVar var_r1" style="background:#9C3" onClick="playAudio('correct.mp3')"><p>16</p></div>
+       <div class="boxVar" onClick="playAudio('incorrect.mp3')"><p>14</p></div>
+       <div class="boxVar" style="background:#C0F" onClick="playAudio('incorrect.mp3')"><p>18</p></div>
        <div class="clear"></div>
      </div>  
     </div>  
@@ -47,9 +45,9 @@
        <div class="clear"></div>
      </div>
      <div class="row2">
-       <div class="boxVar" style="background:#390" onClick="EvalSound('audio1')"><p>8</p></div>
-       <div class="boxVar  var_r2" style="background:#FC0" onClick="EvalSound('audio2')"><p>10</p></div>
-       <div class="boxVar" style="background:#96C" onClick="EvalSound('audio1')"><p>7</p></div>
+       <div class="boxVar" style="background:#390" onClick="playAudio('incorrect.mp3')"><p>8</p></div>
+       <div class="boxVar  var_r2" style="background:#FC0" onClick="playAudio('correct.mp3')"><p>10</p></div>
+       <div class="boxVar" style="background:#96C" onClick="playAudio('incorrect.mp3')"><p>7</p></div>
        <div class="clear"></div>
      </div>  
     </div>  
@@ -64,16 +62,14 @@
        <div class="clear"></div>
      </div>
      <div class="row2">
-       <div class="boxVar" style="background:#9C3" onClick="EvalSound('audio1')"><p>13</p></div>
-       <div class="boxVar" style="background:#6C6" onClick="EvalSound('audio1')"><p>11</p></div>
-       <div class="boxVar var_r3" style="background:#F6F" onClick="EvalSound('audio2')"><p>15</p></div>
+       <div class="boxVar" style="background:#9C3" onClick="playAudio('incorrect.mp3')"><p>13</p></div>
+       <div class="boxVar" style="background:#6C6" onClick="playAudio('incorrect.mp3')"><p>11</p></div>
+       <div class="boxVar var_r3" style="background:#F6F" onClick="playAudio('correct.mp3')"><p>15</p></div>
        <div class="clear"></div>
      </div>  
     </div>
     <hr> 
     <!-- end Row 3-->
-      <audio id="audio1" src="../sound/beep-3.mp3" autobuffer></audio>
-      <audio id="audio2" src="../sound/correct-1.mp3" autobuffer></audio>
     <div class="learnNumbers2">
      <div class="row1">
        <div class="boxNum"><p>8 + 3 = </p></div>
@@ -83,9 +79,9 @@
        <div class="clear"></div>
      </div>
      <div class="row2">
-       <div class="boxVar" style="background:#9C3" onClick="EvalSound('audio1')"><p>9</p></div>
-       <div class="boxVar var_r4" style="background:#FC9" onClick="EvalSound('audio2')"><p>11</p></div>
-       <div class="boxVar" style="background:#C0F" onClick="EvalSound('audio1')"><p>7</p></div>
+       <div class="boxVar" style="background:#9C3" onClick="playAudio('incorrect.mp3')"><p>9</p></div>
+       <div class="boxVar var_r4" style="background:#FC9" onClick="playAudio('correct.mp3')"><p>11</p></div>
+       <div class="boxVar" style="background:#C0F" onClick="playAudio('incorrect.mp3')"><p>7</p></div>
        <div class="clear"></div>
      </div>  
     </div>  
@@ -100,9 +96,9 @@
        <div class="clear"></div>
      </div>
      <div class="row2">
-       <div class="boxVar" style="background:#6FF" onClick="EvalSound('audio1')"><p>8</p></div>
-       <div class="boxVar" style="background:#C36" onClick="EvalSound('audio1')"><p>11</p></div>
-       <div class="boxVar  var_r5" style="background:#FA0" onClick="EvalSound('audio2')"><p>13</p></div>
+       <div class="boxVar" style="background:#6FF" onClick="playAudio('incorrect.mp3')"><p>8</p></div>
+       <div class="boxVar" style="background:#C36" onClick="playAudio('incorrect.mp3')"><p>11</p></div>
+       <div class="boxVar  var_r5" style="background:#FA0" onClick="playAudio('correct.mp3')"><p>13</p></div>
        <div class="clear"></div>
      </div>  
     </div>  
@@ -117,9 +113,9 @@
        <div class="clear"></div>
      </div>
      <div class="row2">
-       <div class="boxVar var_r6" style="background:#F6F" onClick="EvalSound('audio2')"><p>18</p></div>
-       <div class="boxVar" style="background:#6C6" onClick="EvalSound('audio1')"><p>9</p></div>
-       <div class="boxVar" style="background:#90F" onClick="EvalSound('audio1')"><p>15</p></div>
+       <div class="boxVar var_r6" style="background:#F6F" onClick="playAudio('correct.mp3')"><p>18</p></div>
+       <div class="boxVar" style="background:#6C6" onClick="playAudio('incorrect.mp3')"><p>9</p></div>
+       <div class="boxVar" style="background:#90F" onClick="playAudio('incorrect.mp3')"><p>15</p></div>
        <div class="clear"></div>
      </div>  
     </div><br>
