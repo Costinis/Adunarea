@@ -19,10 +19,11 @@
 	padding: 6px;
 }
 #header h1 {
-	padding-top: 3px;
 	margin-right: auto;
 	margin-left: auto;
-	padding-right: 40px;
+	padding-right: 50px;
+	font-size: 20px;
+	color: #FF9;
 }
 #header #topBar {
 	background-color: #069;
